@@ -23,7 +23,6 @@ class _CounterScreenState extends State<CounterScreen> {
             return Center(child: Text(state.counter.toString() , style: TextStyle(fontSize: 60),));
           },),
           
-         
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
